@@ -1,0 +1,420 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Maxdeli - Responsive Multipurpose Wordpres Theme</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Multipurpose Themes">
+	<meta name="copyright" content="Multipurpose Themes">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2018-03-05T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	<script>
+	$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+	</script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_17.png);}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-books-store-responsive-WordPress-theme">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#about_the_theme" title="About The Theme">About The Theme</a></li>
+			<li><a href="#system_requirement" title="System Requirements">System Requirements</a></li>
+			<li><a href="#installation" title="Theme Installation">Theme Installation</a></li>
+			<li><a href="#theme_options_panel" title="Theme Options Panel">Theme Options Panel</a></li>
+			<li><a href="#main_menu_setup" title="Main Menu Setup">Main Menu Setup</a></li>
+			<li><a href="#main_menu_setup" title="slider Setup">Slider Setup</a></li>
+			<li><a href="#main_menu_setup" title="homepage setting">Home page Setting</a></li>
+			<!--<li><a href="#building_pages_visual_composer" title="Building Pages + Visual Composer">Visual Composer</a></li>
+			<li><a href="#custom_post_type_portfolio" title="Custom Post Type Portfolio">Portfolio</a></li>
+			<li><a href="#custom_post_type_team" title="Custom Post Type Team">Team</a></li>
+			<li><a href="#custom_post_type_testimonial" title="Custom Post Type Testimonial">Testimonial</a></li>
+			<li><a href="#widgets_sidebars" title="Widgets & Sidebars">Widgets & Sidebars</a></li>
+			<li><a href="#contact_forms" title="Contact Forms">Contact Forms</a></li>
+			<li><a href="#common_issues" title="Common Issues">Common Issues</a></li>
+			<li><a href="#source_credits" title="Source & Credits">Source & Credits</a></li>-->
+
+		</ul>
+		<div id="documenter_copyright">Copyright Multipurpose Themes 2018<br>
+		made with the <a href="http://multipurposethemes.com/">Multipurpose Themes</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>maxdeli - Responsive Multipurpose Wordpres Theme</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>Created: 20/04/2018</li>
+	<li>Latest update: 25/05/2018</li>
+	<li>Author: Multipurpose Themes</li>
+	<li>Website:<a href="http://multipurposethemes.com/">www.multipurposethemes.com</a></li>
+	<li>Email: <a href="mailto:hello@multipurposethemes.com">hello@multipurposethemes.com</a></li>
+	</ul>
+	<div class="cilckon-button">
+    <!--<ul>
+    	<li><a href="https://www.multipurposethemes.com/wordpressdemo/minimalstudio/" target="_blank">Demo</a></li>
+    	<li><a href="https://www.multipurposethemes.com/support/" target="_blank">Support</a></li>
+    	<li><a href="https://www.multipurposethemes.com" target="_blank">Buy Now</a></li>
+    </ul>-->
+    	
+    </div>
+	</section>
+	
+</section>
+	
+	<section id="about_the_theme">
+	<div class="page-header"><h3>About The Theme</h3><hr class="notop"></div>
+
+	<p class="ng-scope">Maxdeli theme is an advanced and multi-purpose theme for <a href="https://wordpress.com" target="_blank">WordPress</a>.
+
+    Please read this guide thoroughly to get started with maxdeli theme. This documentation is strictly theme-related and does not cover general WordPress functionality. You need to be familiar with the WordPress platform in order to get the most out of this theme. For any general WordPress info please refer to their official documentation and forum.</p>
+
+	<p class="ng-scope">
+		<a href="https://codex.wordpress.org/" target="_blank">WordPress Documentation</a> |
+        <a href="https://wordpress.org/support/forums/" target="_blank">WordPress Forum</a>
+    </p>    
+
+	<strong>Before you install this theme:</strong></p>
+	<p>
+	1. Read the complete instruction<br>
+	2. Make sure you have installed and running the correct/stable/latest version of WordPress<br>
+	3. It is a good practice to backup your system</p>
+
+	<p>We recommend to use this theme on a new, clean installation or existing site without custom core modifications.</p>
+
+	<strong>Custom Work & 3rd Party Modules:</strong></p>
+
+	<p class="ng-scope">If you'd like to add additional functionality to maxdeli theme or customize its built-in features we recommend to <a href="mailto:hello@multipurposethemes.com">click here</a>.</p>
+
+</section>
+
+<section id="system_requirement">
+	<div class="page-header"><h3>System Requirements </h3><hr class="notop"></div>
+	<strong><img alt="" src="assets/images/systemrequirement.png"></strong></p>
+	<br/>
+	<h5>
+		<strong>Required PHP libraries / modules</strong><br/>
+		----------------------------------------------------------
+	</h5>		
+	<ol class="ng-scope">
+		<li>Curl</li>
+		<li>ZIP</li>
+		<li>Zlib</li>
+		<li>GD Library</li>
+		<li>Mcrypt</li>
+		<li>Mbstrings</li>
+		<li>Xml</li>
+	</ol>
+	<br/>
+	<h5>
+		<strong>Required PHP Settings (PHP.ini)</strong><br/>
+		----------------------------------------------------------
+	</h5>		
+	<ol class="ng-scope">
+		<li>memory_limit = 256M</li>
+		<li>upload_max_size = 64M</li>
+		<li>post_max_size = 64M</li>
+		<li>upload_max_filesize = 64M</li>
+		<li>max_execution_time = 300</li>
+		<li>max_input_time = 1000</li>
+	</ol>
+	<br/>
+	<h5>
+		<strong>Recommended Plugins</strong><br/>
+		----------------------------------------------------------
+	</h5>
+	<p>
+		You can install plugins from manually from Sample Data folder one by one and active them.
+	</p>
+	<ol class="ng-scope">
+	    <li>AT Portfolio CPT</li>
+	    <li>AT Team CPT</li>
+	    <li>AT Testimonials CPT</li>
+	    <li>AT Shortcodes</li>
+	    <li>AT Portfolio CPT</li>
+	    <li>Slider Revolution</li>
+	    <li>WooCommerce</li>
+	    <li>Google Maps Marker</li>
+	    <li>Contact Form 7</li>
+
+	<!--<p>
+		<strong><img alt="" src="assets/images/required_plugin.png"></strong></p>-->		
+	<br/>
+	<br/>
+</section>
+
+<section id="installation">
+	<div class="page-header"><h3>1. Theme Installation</h3><hr class="notop"></div>
+
+	<h5>
+		<strong>Installation of WordPress:</strong><br/>
+		----------------------------------------------------------
+	</h5>	
+	<p>
+		Download WordPress version from here <a href="https://wordpress.org/download/" target="_blank">https://wordpress.org/download/</a><br/>
+		Complete WordPress installation using <a href="assets/images/manual_insallation.png" target="_blank">Click Here</a><br/><br/>
+	</p>
+	
+
+	<h5>
+		<strong>Stepwise Theme Installation with Sample Data:</strong><br/>
+		----------------------------------------------------------
+	</h5>
+	<ol class="ng-scope">
+	    <li>Extract the archive you downloaded and locate the <b>maxdeli.zip</b> folder. <a href="index.html#folderstructure">See example</a></li>
+	    <li>Open Theme Folder & Upload Themes. Go to Appearance → Themes -> Add New and then <a href="index.html#upload">Browse Theme</a> and Upload it.</li>
+		 <li>Once you install theme properly without any error then after you need to Activate your theme.<a href="index.html#activetheme">See example</a></li>
+	    <li>Then after you need to install require plugins.<a href="index.html#plugin1">See example</a></li>
+		<li>Then after you need to Activate All plugins.<a href="index.html#plugin-Install">See example</a></li>
+		<li>If you want to import all data at once then you need to import All xml file.<a href="index.html#theme-options">See example</a></li>
+		<li>Import theme settings.<a href="index.html#theme-settings">See example</a></li>
+	    <li>Import Sample data in one click.<a href="index.html#oneclick">See example</a>. 
+	    
+	    <li>Go to Settings->Reading.<a href="index.html#reading">See example</a></li>
+	    
+	    <li>Go to Apperance->Menu and Create and Assinged menu as Main menu and Top Menu as shown in demo.<a href="index.html#menus">See example</a></li>
+		<li>Import a slider Go to the Slider Revolution.<a href="index.html#slider">See example</a></li>
+		<li>Home page settings.<a href="index.html#homepage">See example</a></li>
+	    
+	   
+	</ol>
+
+	<br/>
+
+	<!--<a href="https://www.youtube.com/watch?v=t0V-xsv0jK8" target="_blank" class="vid ng-scope"><img src="assets/images/play.png" alt=""> <span>Complete Theme Installation Video</span></a>	-->
+
+	<br/>
+	<br/>
+	
+</section>
+
+<!--shruti -->
+	<h5>
+		<strong>Installation of WordPress</strong>
+	</h5>
+	
+	</p>
+	<br/>
+	<br/>
+	<img id="folderstructure" alt="" src="assets/images/folderstructure.png">	
+	<br/>
+	<br/>
+	<p>Download Zip and Extract > Go To the Browser and run Your Project </p>
+
+	<img id="install" alt="" src="assets/images/install.png">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Upload Theme</strong>
+	</h5>
+	<p>Selected your theme zip.</p>
+	</p>
+	<br/>
+	<img id="upload" alt="" src="assets/images/upload.png">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Activate Your Theme</strong>
+	</h5>
+	<p>Than after install your theme and activate.</p>
+	</p>
+	<br/>
+	<img id="activetheme" alt="" src="assets/images/activetheme.png">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Plugin Installation</strong>
+	</h5>
+	<p>Activate your theme than after install Required Plugin.</p>
+	</p>
+	<br/>
+	<img id="plugin1" alt="" src="assets/images/plugin-1.jpg">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Plugin Activated</strong>
+	</h5>
+	<p>install Required Plugin than after activate all plugins.</p>
+	</p>
+	<br/>
+	<img id="plugin-Install" alt="" src="assets/images/plugin-Install.jpg">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Theme Options</strong>
+	</h5>
+	<p></p>
+	</p>
+	<br/>
+	<img id="theme-options" alt="" src="assets/images/theme-options.png">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Theme Settings</strong>
+	</h5>
+	<p>Activate your theme than after you need to theme settings.</p>
+	</p>
+	<br/>
+	<img id="theme-settings" alt="" src="assets/images/theme-settings.jpg">	
+	<br/>
+	<br/>
+	
+	
+	<h5>
+		<strong>One Click Demo Imports</strong>
+	</h5>
+	<p>Import Sample data in click</p>
+	</p>
+	<br/>
+	<img id="oneclick" alt="" src="assets/images/One-Click-Demo-Import.png">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Reading Settings</strong>
+	</h5>
+	<p>Than after Go To the settings > Reading.</p>
+	</p>
+	<br/>
+	<img id="reading" alt="" src="assets/images/Reading Settings.jpg">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Import Menus</strong>
+	</h5>
+	<p>After settings you need to menu settings</p>
+	</p>
+	<br/>
+	<img id="menus" alt="" src="assets/images/Menus.jpg">	
+	<br/>
+	<br/>
+	
+	
+	<h5>
+		<strong>Import Slider</strong>
+	</h5>
+	<p>Import a slider Go to the Slider Revolution.</p>
+	</p>
+	<br/>
+	<img id="slider" alt="" src="assets/images/Slider-Revolution.png">	
+	<br/>
+	<br/>
+	
+	<h5>
+		<strong>Homepage Settings</strong>
+	</h5>
+	</p>
+	<br/>
+	<img id="homepage" alt="" src="assets/images/Edit Homepage.jpg">	
+	<br/>
+	<br/>
+	<!--shruti -->
+
+
+
+
+	</div>
+</body>
+</html>

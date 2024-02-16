@@ -1,0 +1,12 @@
+/*
+Theme Name: Max Property Child
+Theme URI: https://www.multipurposethemes.com/wordpressdemo/max-property
+Description: Multipurpose Wordpress Responsive Theme
+Author: Multipurposethemes
+Author URI: http://www.multipurposethemes.com
+Template: maxproperty
+Template Version: 1.0.0
+Tags: editor-style, theme-options, custom-colors
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */

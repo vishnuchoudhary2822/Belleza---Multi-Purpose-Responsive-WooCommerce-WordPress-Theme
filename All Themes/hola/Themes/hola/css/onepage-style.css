@@ -1,0 +1,129 @@
+/*SECTIONS*/
+.fp-section {
+    position: relative;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fp-slide { float: left }
+.fp-slide,
+.fp-slidesContainer {
+    height: 100%;
+    display: block;
+}
+.fp-slides {
+    z-index: 1;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */
+    transition: all 0.3s ease-out;
+}
+.fp-section.fp-table,
+.fp-slide.fp-table {
+    display: table;
+    width: 100%;
+}
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+/*preloader*/
+
+#preloader {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+#preloader img {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -90px;
+}
+
+/*Right side mockup*/
+
+#hand {
+    background: url(../images/hand-mockup.png) top no-repeat;
+    width: 800px;
+    height: 1000px;
+    background-size: 100%;
+    position: fixed;
+    margin-left: -209px;
+    top: 50%;
+    margin-top: -270px;
+    left: 50%;
+}
+
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 52%;
+    opacity: 1;
+}
+#fp-nav.left { right: 17px }
+#fp-nav span,
+.fp-slidesNav span { border-color: #aaa }
+#fp-nav li .active span,
+.fp-slidesNav .active span { background: #fff }
+.fp-slidesNav {
+    position: absolute;
+    z-index: 4;
+    margin-left: -523px!important;
+    text-align: left;
+    left: 50%;
+    opacity: 1;
+    top: 50%;
+    margin-top: 140px;
+}
+.fp-slidesNav.top { top: 17px }
+#fp-nav ul,
+.fp-slidesNav ul {
+    margin: 0;
+    padding: 0;
+}
+#fp-nav li,
+.fp-slidesNav li {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 7px;
+    position: relative;
+}
+.fp-slidesNav li {
+    display: inline-block;
+    margin: 3px;
+}
+.fp-slidesNav li a,
+#fp-nav li a {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 50%;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-indent: -999em;
+    cursor: pointer;
+    position: absolute;
+}
+.fp-slidesNav li a,
+#fp-nav li a {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px rgb(172, 172, 172);
+    -webkit-transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+}
+.fp-slidesNav li a:hover,
+.fp-slidesNav li a:focus,
+#fp-nav li a:hover,
+#fp-nav li a:focus { box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.6) }
+.fp-slidesNav li a.active,
+#fp-nav li a.active { box-shadow: inset 0 0 0 8px white }

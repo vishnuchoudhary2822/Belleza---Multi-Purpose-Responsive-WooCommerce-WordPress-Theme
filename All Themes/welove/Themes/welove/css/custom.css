@@ -1,0 +1,786 @@
+/*------------------------------------------------------------------
+[Custom Theme Stylesheet]
+
+Project:    We Love
+Version:    1.1
+Primary use:    We Love
+-------------------------------------------------------------------*/
+
+
+/*.top-bar {
+    border-bottom: 1px solid #ddd;
+    font-size: font-size:0.8571428571428571em;
+    background-color: #F0F1EB;
+    color:#252525;
+    padding: 20px 0px;
+}
+.top-bar .ft-social-icons {
+    padding: 10px;
+}
+.top-bar .navbar-nav > li > a {
+    padding: 10px;
+    color:#fff;
+}
+.top-bar .nav > li > a:hover, .nav > li > a:focus
+{
+    background-color: #000;
+}
+.top-bar ul {
+    margin: 0;
+    padding: 0;
+}
+.top-bar .ft-social-icon li {
+    padding: 8px 8px !important;
+}
+@media only screen and (max-width: 768px) {
+    .top-bar {
+        display: none;
+    }
+}*/
+/*add your style css here*/
+
+.main-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.current_page_item a {color: #F65FB1 ;}
+.section-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+h2 {letter-spacing: 1px;}
+/*.single-post article.blog-post{padding: 20px 0px;}*/
+aside{padding:0px;}
+.post-navigation {
+    padding: 0px 0px !important;
+}
+/*.blog-content {
+    padding: 0px 0px;
+    border: 0px;
+    margin-bottom: 0px;
+}*/
+.blog .single-post article.blog-post{
+    padding: 20px 0px;
+}
+
+.rev_slider_wrapper .fa {
+    margin-right: 7px !important;
+}
+a:focus,
+.navbar-brand,
+.navbar-default .nav > li > a:focus:hover,
+.navbar-default .nav > li > a:focus:hover,
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus,
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover,
+.navbar-default .nav > li > a:focus:hover,
+.navbar-default.affix .navbar-header .navbar-brand,
+.navbar-default.affix .nav > li > a:hover,
+.navbar-default.affix .nav > li > a:hover,
+.navbar-default.affix .nav > li > a:focus:hover,
+.section-title h6,
+.intro-ser:hover p.icon,
+.intro-ser p i,
+.intro-ser:hover hr,
+.contact-info h5,
+.contact-info p i,
+.contact-info span,
+.newsletter .btn:hover,
+.contact-form .btn:hover,
+.copy span,
+.widget-title,
+a:hover,
+a:focus,
+
+.navbar-default .nav > li.active > a:focus,
+.navbar-default .nav > li.active > a:focus:hover,
+.navbar-default.affix .navbar-header .navbar-brand,
+.section-title h6,
+.intro-ser p i,
+.newsletter .btn:hover,
+.contact-form .btn:hover,
+.social li a:hover,
+.contact-info h5,
+.contact-info p i,
+.contact-info span,
+.copy span,
+.widget-title a {
+    color: #F65FB1;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+.newsletter .btn,
+hover button.info,
+.ser-block hr,
+.ser-block:hover,
+.intro-ser.in-one,
+.intro-ser.in-two,
+.intro-ser.in-three,
+#fade-quote-carousel .profile-circle,
+.contact-form .btn,
+.btn-box.call-btn,
+.social li a:hover,
+.form-submit .submit,
+button,
+html input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.search-submit,
+.hover button.info,
+ser-block hr,
+.ser-block:hover,
+.btn-box.call-btn,
+.intro-ser.in-one,
+.intro-ser:hover hr,
+.newsletter .btn,
+#fade-quote-carousel .profile-circle,
+.contact-form .btn,
+.social li a:hover,
+.mail-btn:hover,
+.is-sticky {
+    background-color: #F65FB1;
+}
+.hover button.info,
+.contact-form .btn,
+.contact-form .btn:hover,
+.social li a:hover,
+.newsletter .btn,
+.form-submit .submit,
+.comment-content,
+.comment,
+button,
+html input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.widget-title,
+.nav-links,
+.about hr,
+.search-results .blog-content,
+.archive .blog-content,
+.category .blog-content,
+.hover button.info,
+.intro-ser:hover p.icon,
+.newsletter .btn,
+.contact-form .btn,
+.contact-form .btn:hover,
+.social li a:hover {
+    border-color: #F65FB1;
+}
+.vc_btn3.vc_btn3-size-md.vc_btn3-style-outline, .vc_btn3.vc_btn3-size-md.vc_btn3-style-outline-custom
+{
+    padding: 13px 19px;
+    border-width: 2px;
+}
+
+.page-template-full-width-footer-2 .navbar-default .navbar-nav>li>a,
+.page-template-full-width-footer-2 .navbar-default .navbar-nav>li>a:hover {
+    color: #000 !important;
+}
+.black-111 {
+    color: #000;
+}
+
+/* about section */
+.about{padding:20px 0px;}
+body.home .about{padding:0px;}
+.about img {
+    position: relative;
+}
+.about .wpb_single_image{margin-bottom:0px;}
+.about figure::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.about figure:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+.about figure {
+    overflow: hidden;
+}
+.newsletter-form input[type="text"] {
+    width: 55%;
+    min-height: 42px;
+    background: transparent;
+    margin-right: 10px;
+    border: 1px solid #e6e7e8;
+    padding-left:10px;
+}
+.newsletter-form input[type="submit"] {
+    min-height: 42px;
+    width: 20%;
+    background: #F65FB1;
+    border-color: #F65FB1;
+    color: #fff;
+    font-size: 1.2857142857142858em;
+    text-transform: capitalize;
+}
+
+/* Over About Section */
+
+/* Our Team section */
+.our-team {
+    padding: 50px 0px;
+}
+.our-team h2 {
+    margin-bottom: 30px;
+}
+.our-team .vc_gitem-post-data-source-post_title {
+    font-size: 1.2857142857142858em;
+    color: #111;
+    font-weight: bold;
+}
+.our-team .vc_grid-item-mini:hover {
+    border: 1px solid #ebebeb;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+.our-team .vc_gitem_row .vc_gitem-col {
+    padding: 0px;
+}
+.our-team .our-team-social .vc_icon_element {
+    width: 30%;
+    float: left;
+}
+.our-team .our-team-info .vc_gitem_row:last-child {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-team .vc_gitem-zone-mini {
+    padding: 5px 0px;
+}
+/* Over Our Team Section */
+
+/* Services Section */
+.our-services .icon-img {
+    background-image: url(../images/sprites.png);
+    background-repeat: no-repeat;
+    border-right: 1px solid #ccc;
+    display: block;
+    height: 70px;
+    margin-bottom: 5px;
+    width: 90%;
+}
+.our-services .icon-one {
+    background-position: 50px 0px;
+}
+.our-services .icon-two {
+    background-position: 50px -78px;
+}
+.our-services .icon-three {
+    background-position: 50px -155px;
+}
+.our-services h5 {
+    color: #111;
+}
+.our-services .wpb_text_column {
+    margin-bottom: 13px;
+}
+/* Over Services Section */
+
+/* Testimonial Section */
+.testimonial-slider img {
+    width: 80px !important;
+    height: 85px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.testimonial-slider .wpb_gallery_slides {
+    text-align: center !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    border: 0px !important;
+}
+.testimonial-slider .flex-caption p {
+    font-size: 1.1428571428571428em;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+.testimonial-slider .flex-direction-nav,
+.testimonial-slider .flex-control-nav {
+    display: none;
+}
+.testimonial-slider .post-title {
+    font-size: 1.1428571428571428em;
+    margin: 0px 0px 20px;
+    text-transform:capitalize;
+    letter-spacing:0px;
+    text-align:center;
+}
+.testimonial-slider .post-title a {
+    color: #F65FB1;
+}
+.testimonial-slider img{padding-bottom:0px !important;}
+.testimonial-slider .flex-caption{background-color:transparent !important;}
+/* Over Testimonial Section */
+
+/* Latest News Section */
+.latest-news .vc_gitem-zone {
+    width: 50%;
+    float: left;
+    background: transparent !important;
+}
+.latest-news .vc_custom_heading h4 {
+    color: #111;
+    font-size: 2.5714285714285716em;
+}
+.latest-news .vc_custom_heading {
+    margin-bottom: 30px;
+}
+.latest-news .vc_gitem-zone-mini {
+    margin-top: 30px;
+}
+.latest-news .vc_gitem-link {
+    background-color: transparent !important;
+    color: #898989 !important;
+    padding: 0 !important;
+}
+.latest-news .vc_btn3-container .vc_gitem-link::after {
+    content: "\f178";
+    margin-left: 10px;
+    font-family: fontawesome;
+}
+.latest-news .vc_gitem-animated-block .vc_gitem-zone {
+    background-size: contain;
+    background-position: top;
+    max-height: 330px;
+}
+.latest-news .vc_grid-item:nth-child(even) .vc_gitem-animated-block .vc_gitem-zone {
+    float: right;
+}
+.latest-news .vc_btn3-container a:hover{
+    border-bottom:1px solid #898989;
+    border-radius:0px;
+}
+/* Over Latest News Section */
+
+
+/* Contact Us Section 
+.contact {
+    background-position: 0 0 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 485px;
+}
+.contact .contact-map-column {
+    margin: -60px 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+   /* width: 48%;
+    float: left;
+    margin-bottom: 15px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    border-bottom: 1px solid #fff;
+    border-radius: 0 !important;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background:transparent;
+    min-height: 50px;
+    padding: 10px;
+    font-size: 1.2857142857142858em;
+}
+.contact-form textarea{width:100%;}
+.contact-form input[type="text"] {
+    margin-right: 15px;
+}
+.contact-form input.wpcf7-submit {
+    background: transparent !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+    font-weight: normal !important;
+    max-width: 32%;
+    font-size: 1.2857142857142858em;
+    padding: 10px 20px;
+}
+.contact-form input.wpcf7-submit:hover {
+    background: #F65FB1 !important;
+    color: #fff !important;
+    border-color: #F65FB1 !important;
+}
+.contact-form-column .vc_column-inner {padding-top:0px !important;}
+.hm-2-contact-btn {
+    border-radius: 10px !important;
+    background-color: transparent !important;
+    border: 2px solid #F65FB1 !important
+}
+.hm-2-contact-btn:hover {
+    background-color: #F65FB1 !important;
+}*/
+/* Over Contact Us Section */
+
+.fontfamily-montserrat {
+    font-family: montserrat;
+}
+.row-4 {
+    padding: 20px 0px;
+    min-height: 550px;
+}
+
+
+/*.ft-icon-row .vc_icon_element-inner:hover .vc_icon_element-icon.fa-behance:before {
+    color: #6ccef2;
+}
+.ft-icon-row .vc_icon_element-inner:hover .vc_icon_element-icon.fa-facebook:before {
+    color: #0F8FCD;
+}
+.ft-icon-row .vc_icon_element-inner:hover .vc_icon_element-icon.fa-google-plus:before {
+    color: #fc5b4d;
+}
+.ft-icon-row .vc_icon_element-inner:hover .vc_icon_element-icon.fa-twitter:before {
+    color: #55acee;
+}
+.ft-icon-row .vc_icon_element-inner:hover .vc_icon_element-icon.fa-dribbble:before {
+    color: #e94c89;
+}
+.hm-2-ft-social {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hm-2-ft-social .fa {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+    width: 42px;
+    height: 40px;
+    line-height: 22px;
+    margin: 0px 5px;
+    text-align: center;
+}*/
+
+@media only screen and (max-width: 1024px) {
+    .desktop-space{display:none;}
+    .our-team .our-team-info .vc_gitem_row:last-child {
+        width: 50%;
+    }
+    .our-team .team-row .vc_icon_element {
+        width: 33%;
+    }
+    .our-services .icon-img {
+        width: 100%;
+    }
+    .latest-news .vc_gitem-animated-block .vc_gitem-zone {
+        max-height: 265px;
+    }
+    .contact-form input.wpcf7-submit {
+        max-width: 40%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .our-team .our-team-info .vc_gitem_row:last-child {
+        width: 70%;
+    }
+    .our-services .icon-one {
+        background-position: 20px 0px;
+    }
+    .our-services .icon-three {
+        background-position: 20px -155px;
+    }
+    .our-services .icon-two {
+        background-position: 20px -78px;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"] {
+        width: 100%;
+    }
+    .contact-form input.wpcf7-submit {
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .our-team .team-row .vc_icon_element {
+        width: 33%;
+    }
+    .our-team .our-team-info .vc_gitem_row:last-child {
+        width: 40%;
+    }
+    .our-services .icon-img {
+        width: 28%;
+        margin: 0 auto;
+        border-right: 0;
+    }
+    .our-services .services-info {
+        text-align: center;
+    }
+    .our-services .wpb_text_column p {
+    text-align: center;
+    }
+    .latest-news .vc_gitem-zone {
+        width: 100%;
+        float: none;
+    }
+    .our-services .icon-one {
+        background-position: 70px 0px;
+    }
+    .our-services .icon-three {
+        background-position: 70px -155px;
+    }
+    .our-services .icon-two {
+        background-position: 70px -78px;
+    }
+    .latest-news .vc_gitem-animated-block .vc_gitem-zone {
+        max-height: 330px;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"] {
+        width: 48%;
+    }
+    .contact-form input.wpcf7-submit {
+        max-width: 32%;
+        margin-bottom:20px;
+    }
+    .our-team .vc_grid-item-mini:hover {
+        border: 0px;
+    }
+    .our-team {
+        padding: 0;
+    }
+    #footer{padding:30px 0px;}
+    .sports-newsletter .vc_column-inner {padding-top: 0px !important;}
+    .sports-newsletter .wpb_content_element{margin-bottom: 15px;}
+}
+@media only screen and (max-width: 667px) {
+    #footer {
+    padding: 20px 0px;
+    }
+}
+@media only screen and (max-width: 568px) {
+    #footer {
+    padding: 5px 0px;
+    }
+    .our-services .icon-one {
+        background-position: 42px 0px;
+    }
+    .our-services .icon-three {
+        background-position: 42px -155px;
+    }
+    .our-services .icon-two {
+        background-position: 42px -78px;
+    }
+
+}
+@media only screen and (max-width: 480px) {
+    #footer {
+        padding: 0px;
+        background-size: contain;
+    }
+    .our-services .icon-one {
+        background-position: 24px 0px;
+    }
+    .our-services .icon-three {
+        background-position: 24px -155px;
+    }
+    .our-services .icon-two {
+        background-position: 24px -78px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    #footer {
+        padding: 0px;
+        background-size: contain;
+    }
+    .our-services .icon-one {
+        background-position: 21px 0px;
+    }
+    .our-services .icon-three {
+        background-position: 21px -155px;
+    }
+    .our-services .icon-two {
+        background-position: 21px -78px;
+    }
+    .contact-form input[type="text"], .contact-form input[type="email"]{width:100%;}
+    .contact-form input.wpcf7-submit{max-width:40%;}
+}
+@media only screen and (max-width: 375px) {
+    .our-services .icon-three {
+    background-position: 7px -155px;
+    }
+    .our-services .icon-one {
+        background-position: 7px 0px;
+    }
+    .our-services .icon-two {
+        background-position: 7px -78px;
+    }
+    .contact-form input.wpcf7-submit{max-width:50%;}
+    .footer-widget{padding:0px;}
+    .our-team .our-team-info .vc_gitem_row:last-child{width:50%;}
+    .newsletter-form input[type="text"], .newsletter-form input[type="submit"]{width:100%;margin:5px 0px;}
+    
+}
+
+
+/*-----------------------------------------------------------Added by Dev 8 -------------------------------------------------------*/
+
+/*-----------------------------------------------------------Start-footer-------------------------------------------------------*/
+
+
+.footer-desc{
+color:#333;
+}
+.ft-address li{
+display:flex;
+padding-top:15px !important;
+color:#333;
+}
+.ft-address .ft-add-text{
+padding-left:20px;
+}
+#footer .widget-title:after{
+border-bottom:0px;
+}
+#footer .widget-title{
+font-weight:bold;
+color:#333 !important;
+font-size:1.2857142857142858em;
+}
+#footer .widget ul li{
+border-bottom:1px solid #ccc;
+}
+#footer .widget ul li:last-child {
+    border-bottom: none;
+}
+#menu-my-account{
+padding-top:10px;
+}
+#menu-my-account li{
+display:flex;
+}
+#menu-my-account i{
+margin-right:10px;
+}
+
+.tagcloud{
+padding-top:10px;
+}
+.tagcloud a{
+   font-size: 1em !important;
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    color: #666 !important;
+    margin: 5px 5px;
+    display: inline-block;
+}
+.tagcloud a:active {
+background:#333;
+}
+.tagcloud a:hover{
+background:#333;
+color:#fff !important;
+}
+.newsletter {
+    margin-bottom: 20px;
+}
+.newsletter-text {
+    margin-bottom: 20px;
+padding-top:10px;
+}
+.newsletter  input {
+    border-radius: 0px;
+    padding: 7px 10px;
+}
+.newsletter i.fa.fa-arrow-right
+{
+  background: #cc9900;
+    height: 35px;
+    width: 35px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+color:#fff;
+}
+
+.ft-social-icon li {
+    border-bottom: none !important;
+    display: inline-block;
+    padding: 20px 8px !important;
+}
+#footer .footer_bottom{
+padding:15px 0px !important;
+}
+#footer .copyright{
+float:none;
+text-align:left;
+}
+
+
+.footer-desc {
+    color: #333;
+}
+#footer .widget ul li {
+    border-bottom: 1px solid #ccc;
+}
+.ft-address .ft-add-text {
+    padding-left: 20px;
+}
+#footer .widget ul, .widget ol {
+    margin: 0;
+    padding-left: 0;
+}
+.border-bottom-light-gray {
+    border-bottom: 1px solid #ccc;
+}
+#footer .widget ul li {
+    margin: 0px;
+    border-bottom: 1px solid #666666;
+    padding: 15px 0px;
+}
+.padding15-top-bottom {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#footer .widget-title {
+    display: block;
+    border: 0px;
+}
+
+/*---------------------------------------------------end-footer-----------------------------------------------------------*/
+/* =============MOBILE MENU=============== */
+
+/*@media only screen and (max-width: 992px) {
+    
+    ul#menu-menu-1 {
+        background-color: #fff;
+    }
+}*/
+/* =============END MOBILE MENU=============== */
+.modal-dialog {
+    width: 400px;
+    margin: 10% auto;
+}
+input.search-submit {
+    font-size: 14px !important;
+    background: #F65FB1 !important;
+    color: #fff !important;
+    padding: 8px 12px !important;
+}

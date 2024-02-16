@@ -1,0 +1,245 @@
+/*---------woocommerce---------------*/
+
+.fashion-tabs li.vc_tta-tab a {
+    background-color: transparent !important;
+    padding: 0 !important;
+    color: #999 !important;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+    padding-right: 15px !important;
+}
+li.vc_tta-tab.vc_active a {
+    color: #111 !important;
+}
+ul.vc_tta-tabs-list {
+    margin-bottom: 30px !important;
+}
+
+.woocommerce ul.products li.product h3 {
+    color: #111;
+    font-size: 24px !important;
+    text-align: center;
+    top: 25px;
+    position: relative;
+}
+span.amount {
+    color: #ee2b63;
+}
+del span.amount {
+    font-size: 18px;
+    color: #bababa;
+}
+.woocommerce ul.products li.product .price del {
+    display: inline-block;
+}
+.woocommerce ul.products li.product .price {
+    text-align: center;
+    position: relative;
+    /*top: -50px;*/
+}
+.woocommerce ul.products li.product .star-rating {
+    margin-bottom: 5px;
+}
+.woocommerce ul.products li.product .button {
+    display: none;
+}
+.woocommerce ul.products li.product .onsale {
+    margin: 0;
+    border-radius: 0;
+    position: absolute;
+    top: 10px;
+    right: inherit;
+    left: 10px;
+    background-color: #ee2b63;
+}
+/*---------woocommerce end---------------*/
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 0px !important;
+}
+
+/*----Section -1 */
+#section-1 img {
+    padding: 0;
+}
+
+
+/*----Section -2 */
+
+.vc_tta-color-white.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+    background-color: transparent !important;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333 !important;
+    padding: 0px 10px !important;
+}
+
+.vc_tta-color-white.vc_tta-style-classic .vc_tta-tab>a {
+    background-color: transparent !important;
+    border: 0px !important;
+    font-size: 24px;
+    font-weight: bold;
+    color: #999 !important;
+    padding: 0px 10px !important;
+}
+
+
+
+
+#section-3 p {
+    color: #999;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+#newsletter_row input[type="email"] {
+    font-size: 14px;
+    width: 30%;
+    border: 1px solid #ee2b63;
+    padding: 5px 5px;
+    height: 40px;
+    font-weight: 400
+
+}
+#newsletter_row input[type="submit"] {
+    font-size: 14px;
+    border: 1px solid #ee2b63;
+    background-color: #EE2B64;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0px;
+    padding: 5px 50px 5px 20px;
+    margin: 0px 0px;
+    height: 40px;
+}
+.newsletter_btn {
+    background-image: url(images/002-envelope.png);
+    background-repeat: no-repeat;
+    background-position: 110px 10px;
+    text-align: left;
+}
+
+a.vc_gitem-link.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-flat.vc_btn3-icon-right.vc_btn3-color-whitefs-14 {
+    border: 0px Solid #fff !important;
+    padding: 0px 48px 5px 0px;
+    color: #ee2b63;
+    margin-top: 15px;
+}
+a.vc_gitem-link.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-flat.vc_btn3-icon-right.vc_btn3-color-whitefs-14:hover {
+    border: 0px Solid #fff !important;
+    padding: 0px 48px 5px 0px;
+    color: #ee2b63;
+    margin-top: 15px;
+}
+.cosmetic_blog .vc_pageable-slide-wrapper div.vc_grid-item:nth-child(even) div.vc_gitem-animated-block {
+	position: relative;
+    bottom: 0px;
+}
+
+.vc_grid-item:nth-child(even) div.vc_gitem-animated-block a.vc_gitem-link.vc-zone-link:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: 999;
+    content: '';
+    border-style: solid;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top;
+    transition-property: top;
+    left: calc(50% - 20px);
+    top: 0;
+    border-width: 20px 20px 0 20px;
+    border-color: #fff transparent transparent transparent;
+}
+
+.vc_grid-item:nth-child(odd) div.vc_gitem-animated-block a.vc_gitem-link.vc-zone-link:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: 999;
+    content: '';
+    border-style: solid;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top;
+    transition-property: top;
+    left: calc(50% - 20px);
+    bottom: 0;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent #fff transparent;
+}
+
+input.newsletter_btn:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f003";
+}
+article.blog-post
+{
+	padding: 0px;
+}
+@media only screen and (min-width : 1280px) and (max-width : 3500px) {
+    .vc_grid-item:nth-child(even) div.vc_gitem-animated-block {
+        margin-top: 381px;
+    }
+    .vc_grid-item:nth-child(even) .blog_content_bottom {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1279px) {
+    .vc_grid-item:nth-child(even) div.vc_gitem-animated-block {
+    margin-top: 330px;
+    }
+    .vc_grid-item:nth-child(even) .blog_content_bottom {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    .vc_grid-item:nth-child(even) div.vc_gitem-animated-block {
+    margin-top: 375px;
+    }
+    .vc_grid-item:nth-child(even) .blog_content_bottom {
+        position: absolute;
+        top: 0;
+    }
+}
+@media only screen and (max-width : 400px){
+
+#newsletter_row input[type="email"]{
+    width: 100%;
+    margin-bottom: 10px;
+    }
+}
+li.vc_tta-tab:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f111";
+    font-size: 10px;
+    padding: 12px;
+        color: #999;
+}
+.vc_tta.vc_tta-spacing-5 .vc_tta-tab {
+    display: inline-flex !important;
+}
+li.vc_tta-tab:last-child:after {
+    display: none;
+}
+.super-deal h1 span {
+    color: #ee2b6b;
+}
+.super-deal h1 {
+    color: #fff;
+    font-weight: 600;
+}
+#section-3 p {
+    color: #898989;
+    line-height: 22px;
+    padding-top: 15px;
+}
+
